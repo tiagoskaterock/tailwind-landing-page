@@ -8,6 +8,17 @@
 </head>
 <body class="h-screen bg-indigo-700">
 
+	<nav 
+		class="bg-violet-600 h-20 px-8 flex text-white justify-between items-center">
+		<h1>Logo.</h1>
+
+		<div>
+			<a href="#" title="Home">Home</a>
+			<a href="#" title="About">About</a>
+			<a href="#" title="Contact">Contact</a>
+		</div>
+	</nav>
+
 	<article 
 		class="w-5/6 max-w-screen-md bg-violet-800 my-24 mx-auto px-6 py-4 rounded-md text-center border-8">
 		<img 			
