@@ -6,21 +6,21 @@
 	<title>Hola Tailwind!!!</title>
 	<link rel="stylesheet" type="text/css" href="src/css/estilos.css">
 </head>
-<body class="h-screen bg-indigo-700">
+<body class="h-screen">
 
 	<nav 
-		class="bg-violet-600 h-20 px-8 flex text-white justify-between items-center">
+		class="bg-violet-600 h-20 px-8 flex text-white justify-between items-center rounded">
 		<h1>Logo.</h1>
 
-		<div>
-			<a href="#" title="Home">Home</a>
-			<a href="#" title="About">About</a>
-			<a href="#" title="Contact">Contact</a>
+		<div class="flex gap-8">
+			<a class="text-xl" href="#" title="Home">Home</a>
+			<a class="text-xl" href="#" title="About">About</a>
+			<a class="text-xl" href="#" title="Contact">Contact</a>
 		</div>
-	</nav>
+	</nav>	
 
 	<article 
-		class="w-5/6 max-w-screen-md bg-violet-800 my-24 mx-auto px-6 py-4 rounded-md text-center border-8">
+		class="w-5/6 max-w-screen-md my-24 mx-auto px-6 py-4 rounded-md text-center border-8">
 		<img 			
 			class="w-52 mx-auto mb-4 rounded-full object-cover"
 			src="girl.jpg" 
@@ -42,6 +42,44 @@
 			Contact Me
 		</a>
 	</article>
+
+
+
+	<h2 class="text-3xl font-bold text-center my-12">Gallery</h2>
+
+	<section class="w-[90%] mx-auto flex flex-wrap gap-y-8 gap-x-4 p-4">
+		<img 
+			class="w-52 h-52 grow object-cover"
+			src="img/woman1.jpg" 
+			alt="Woman">
+
+		<img 
+			class="w-52 h-52 grow object-cover"
+			src="img/woman2.jpg" 
+			alt="Woman">
+
+		<img 
+			class="w-52 h-52 grow object-cover"
+			src="img/woman3.jpg" 
+			alt="Woman">
+
+		<img 
+			class="w-52 h-52 grow object-cover"
+			src="img/woman4.jpg" 
+			alt="Woman">
+
+		<img 
+			class="w-52 h-52 grow object-cover"
+			src="img/woman5.jpg" 
+			alt="Woman">
+
+		<img 
+			class="w-52 h-52 grow object-cover"
+			src="img/woman6.jpg" 
+			alt="Woman">
+	</section>
+
+
 
 	<div class="text-center bg-indigo-800/50 p-5">
 		
