@@ -6,10 +6,10 @@
 	<title>Hola Tailwind!!!</title>
 	<link rel="stylesheet" type="text/css" href="src/css/estilos.css">
 </head>
-<body class=h-screen>
+<body class="h-screen bg-indigo-700">
 
 	<article 
-		class="w-5/6 max-w-screen-md bg-violet-800 my-24 mx-auto px-6 py-4 rounded-md text-center">
+		class="w-5/6 max-w-screen-md bg-violet-800 my-24 mx-auto px-6 py-4 rounded-md text-center border-8">
 		<img 			
 			class="w-52 mx-auto mb-4 rounded-full object-cover"
 			src="girl.jpg" 
