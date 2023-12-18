@@ -9,13 +9,27 @@
 <body class=h-screen>
 
 	<article 
-		class="w-5/6 max-w-screen-md bg-red-400 my-24 mx-auto px-6 py-4 rounded-md">
+		class="w-5/6 max-w-screen-md bg-violet-800 my-24 mx-auto px-6 py-4 rounded-md text-center">
 		<img 			
 			class="w-52 mx-auto mb-4 rounded-full object-cover"
 			src="girl.jpg" 
 			alt="Girl on computer">
-		<h2>We love programming</h2>
-		<p>Welcome to our universe</p>
+		
+		<h2 
+			class="text-3xl mb-4 font-bold">
+			We love programming
+		</h2>
+
+		<p 
+		class="lg mb-6 font-light">
+		Welcome to our universe
+		</p>
+
+		<a 
+			class="bg-white text-violet-600 py-6 px-8 inline-block rounded-[50px]"
+			href="#">
+			Contact Me
+		</a>
 	</article>
 
 	<div class="text-center bg-indigo-800/50 p-5">
