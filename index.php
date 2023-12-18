@@ -8,11 +8,15 @@
 </head>
 <body>
 
-	<div class="text-center bg-sky-200/50 p-5">
+	<div class="text-center bg-indigo-800/50 p-5">
 		
-		<h1 class="text-center text-[steelblue] text-[100px]">Hola Tailwind!!!</h1>
+		<h1 class="text-center text-[white] text-[100px]">Hola Tailwind!!!</h1>
 
-		<p class="text-zinc-600">
+		<p class="text-white mb-2">I am Tiago =) Web and Game Developer</p>
+
+		<p class="text-white mb-2">I am buiding this page using while I learn Tailwind</p>
+
+		<p class="text-white">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -20,6 +24,7 @@
 			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 		</p>
+
 	</div>
 
 </body>

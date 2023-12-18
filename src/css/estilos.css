@@ -543,8 +543,16 @@ video {
   margin-top: 1.25rem;
 }
 
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
 .w-2\/3 {
   width: 66.666667%;
+}
+
+.w-28 {
+  width: 7rem;
 }
 
 .bg-red-800 {
@@ -564,6 +572,10 @@ video {
 
 .bg-sky-200\/50 {
   background-color: rgb(186 230 253 / 0.5);
+}
+
+.bg-indigo-800\/50 {
+  background-color: rgb(55 48 163 / 0.5);
 }
 
 .p-5 {
@@ -619,4 +631,9 @@ video {
 
 .text-\[100\] {
   color: 100;
+}
+
+.text-\[white\] {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
