@@ -6,24 +6,35 @@
 	<title>Hola Tailwind!!!</title>
 	<link rel="stylesheet" type="text/css" href="src/css/estilos.css">
 </head>
-<body>
+<body class=h-screen>
+
+	<article 
+		class="w-5/6 max-w-screen-md bg-red-400 my-24 mx-auto px-6 py-4 rounded-md">
+		<img 			
+			class="w-52 mx-auto mb-4 rounded-full object-cover"
+			src="girl.jpg" 
+			alt="Girl on computer">
+		<h2>We love programming</h2>
+		<p>Welcome to our universe</p>
+	</article>
 
 	<div class="text-center bg-indigo-800/50 p-5">
 		
 		<h1 class="text-center text-[white] text-[100px]">Hola Tailwind!!!</h1>
 
-		<p class="text-white mb-2">I am Tiago =) Web and Game Developer</p>
+		<p class="text-white mb-2">I am Tiago =) Web and Game Developer</p>		
 
 		<p class="text-white mb-2">I am buiding this page while I learn Tailwind</p>
 
-		<p class="text-white">
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-		</p>
+		<p class="text-white mb-2">Tailwind CSS stands out as a groundbreaking framework revolutionizing how developers build and style web interfaces. Unlike traditional frameworks, it adopts a unique utility-first approach where styles are directly applied within HTML. This methodology offers unparalleled flexibility and granular control over design, enabling efficient creation of custom and responsive layouts.</p>
+
+		<p class="text-white mb-2">One of Tailwind CSS's main strengths lies in its comprehensive set of predefined utility classes. Rather than starting from scratch with CSS, developers can effortlessly apply these classes directly to HTML elements, streamlining the styling process. With classes like <code>bg-blue-500</code>, <code>p-4</code>, <code>flex</code>, and others, colors, spacing, alignments, and more can be defined with just a few lines of code.</p>
+
+		<p class="text-white mb-2">Beyond its ease of use, Tailwind promotes consistency and maintainability within codebases. Standardizing utility classes makes it easier for developers and teams to maintain a cohesive style across the entire application. This also fosters collaboration as different team members can work on the code without compromising the visual integrity of the project.</p>
+
+		<p class="text-white mb-2">Another significant benefit of Tailwind is its ability to create responsive layouts in a simplified manner. By using classes such as <code>sm:</code>, <code>md:</code>, <code>lg:</code>, and <code>xl:</code>, specific styles can be defined for various screen sizes, ensuring a consistent user experience across devices, from smartphones to desktops.</p>
+
+		<p class="text-white mb-2">Tailwind CSS also offers extensive customization. Developers can easily extend or modify the existing utility set, creating custom classes to meet the project's specific needs. This allows for flexible adaptation and the creation of unique designs without sacrificing the development efficiency provided by the framework.</p>
 
 	</div>
 
