@@ -8,7 +8,7 @@
 </head>
 <body>
 
-	<div class="text-center">
+	<div class="text-center bg-sky-200/50 p-5">
 		
 		<h1 class="text-center text-[steelblue] text-[100px]">Hola Tailwind!!!</h1>
 
