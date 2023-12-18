@@ -16,13 +16,13 @@
 			alt="Girl on computer">
 		
 		<h2 
-			class="text-3xl mb-4 font-bold">
+			class="text-3xl mb-4 font-bold leading-relaxed">
 			We love programming
 		</h2>
 
 		<p 
-		class="lg mb-6 font-light">
-		Welcome to our universe
+			class="lg mb-6 font-light mt-6 mb-8">
+			Welcome to our universe
 		</p>
 
 		<a 

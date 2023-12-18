@@ -6,4 +6,5 @@
 
 <p align="center">
   <img src="1.png" alt="Webpage" />
+  <img src="2.png" alt="Webpage" />
 </p>
