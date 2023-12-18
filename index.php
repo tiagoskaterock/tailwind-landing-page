@@ -14,7 +14,7 @@
 
 		<p class="text-white mb-2">I am Tiago =) Web and Game Developer</p>
 
-		<p class="text-white mb-2">I am buiding this page using while I learn Tailwind</p>
+		<p class="text-white mb-2">I am buiding this page while I learn Tailwind</p>
 
 		<p class="text-white">
 			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
