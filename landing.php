@@ -88,6 +88,106 @@
 
 			</div>
 		</section>
+
+
+
+		<section class="bg-slate-50 py-20">
+			<div class="wrapper text-center">
+				<h2 class="text-3xl font-bold mb-6">Nuestro Trabajo</h2>
+				<p class="font-light text-xl text-slate-500">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. 
+				</p>
+
+				<div class="mt-12 grid gap-12">
+
+					<article class="w-4/5 mx-auto space-y-4">
+
+						<img 
+							class="aspect-square object-cover rounded-2xl"
+							src="img/woman2.jpg" 
+							alt="Woman">
+
+						<h3 class="text-2xl font-medium">Taiwind</h3>
+
+						<p class="font-light text-slate-500">
+							Tailwind es un framework CSS moderno que simplifica el diseño y personalización de páginas web.
+						</p>
+
+					</article>
+
+
+					<article class="w-4/5 mx-auto space-y-4">
+
+						<img 
+							class="aspect-square object-cover rounded-2xl"
+							src="img/woman3.jpg" 
+							alt="Woman">
+
+						<h3 class="text-2xl font-medium">Bootstrap</h3>
+
+						<p class="font-light text-slate-500">
+							Bootstrap es un marco de trabajo frontend que facilita la creación de sitios web responsivos
+						</p>
+
+					</article>
+
+
+					<article class="w-4/5 mx-auto space-y-4">
+
+						<img 
+							class="aspect-square object-cover rounded-2xl"
+							src="img/woman4.jpg" 
+							alt="Woman">
+
+						<h3 class="text-2xl font-medium">Laravel</h3>
+
+						<p class="font-light text-slate-500">
+							Laravel es un framework PHP potente y versátil para construir aplicaciones web eficientes y escalables
+						</p>
+
+					</article>
+				</div>
+
+
+			</div>
+		</section>
+
+
+
+
+		<section class="wrapper py-20 grid gap-12">
+			<div>
+				<h2 class="text-3xl font-bold">Dame tu correo, y te contactaré a la brevedad</h2>
+
+				<p class="font-light text-slate-600 text-lg mt-4">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua.
+				</p>
+			</div>
+
+			<form class="grid gap-6">
+				<input 
+					class="border border-slate-900 p-4 rounded-lg text-center"
+					type="email" 
+					placeholder="hola@tailwind.com">
+
+				<input 
+					class="bg-orange-500 text-white py-4 px-10 rounded-lg"
+					type="submit" 
+					value="Contáctame">
+			</form>
+		</section>
+
+
+
+		<footer>
+			
+		</footer>
+
+
 	</main>
 
 </body>
