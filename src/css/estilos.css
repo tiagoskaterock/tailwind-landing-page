@@ -697,6 +697,10 @@ video {
   grid-auto-columns: max-content;
 }
 
+.auto-cols-fr {
+  grid-auto-columns: minmax(0, 1fr);
+}
+
 .grid-flow-col {
   grid-auto-flow: column;
 }
@@ -1051,4 +1055,47 @@ video {
   width: 90%;
   max-width: 1280px;
   overflow: hidden;
+}
+
+@media (min-width: 768px) {
+  .md\:w-1\/2 {
+    width: 50%;
+  }
+
+  .md\:w-2\/5 {
+    width: 40%;
+  }
+
+  .md\:w-3\/5 {
+    width: 60%;
+  }
+
+  .md\:w-2\/3 {
+    width: 66.666667%;
+  }
+
+  .md\:max-w-none {
+    max-width: none;
+  }
+
+  .md\:grid-flow-col {
+    grid-auto-flow: column;
+  }
+
+  .md\:flex-row {
+    flex-direction: row;
+  }
+
+  .md\:justify-between {
+    justify-content: space-between;
+  }
+
+  .md\:text-left {
+    text-align: left;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
 }

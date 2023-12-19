@@ -6,10 +6,13 @@
 	<title>Hola Tailwind!!!</title>
 	<link rel="stylesheet" type="text/css" href="src/css/estilos.css">
 </head>
-<body>	
+<body>
 
-	<header class="bg-blue-500 min-h-[600px]" id="inicio">
-		<nav class="py-6 text-white grid justify-items-center items-center gp-6 wrapper">
+	<header class="bg-blue-500" id="inicio">
+
+
+		<!-- navigation -->
+		<nav class="py-6 text-white grid justify-items-center items-center gp-6 wrapper md:grid-flow-col md:justify-between">
 			<a href="#">
 				<h2 class="text-3xl font-extrabold mb-4">Landing.</h2>
 			</a>
@@ -22,19 +25,21 @@
 			</div>
 		</nav>
 
-		<section class="wrapper py-14 flex-col items-center justify-items-center gap-12 pt-2">
 
-			<img src="girl.jpg" alt="Woman" class="block max-w-lg w-full mb-4 mx-auto">
+		<!-- saludos -->
+		<section class="wrapper py-14 flex flex-col items-center justify-items-center gap-12 pt-2 md:flex-row min-h-[600px]">
 
-			<div class="text-white space-y-6 text-center">
+			<img src="girl.jpg" alt="Woman" class="block max-w-lg w-full mb-4 mx-auto md:w-2/5">
 
-				<h1 class="text-3xl font-bold">Yo soy Tiago, y será un placer ayudarte!</h1>
+			<div class="text-white space-y-6 text-center md:w-3/5 md:text-left">
+
+				<h1 class="text-3xl font-bold md:text-4xl">Yo soy Tiago, y será un placer ayudarte!</h1>
 			
-				<p class="max-w-lg mx-auto">
+				<p class="max-w-lg">
 					Programador web, con dominio de HTML, CSS, PHP, SQL y JavaScript para crear experiencias web dinámicas y atractivas.
 				</p>
 
-				<a href="#" class="inline-block bg-slate-700 py-4 px-8 rounded-xl font-bold">
+				<a href="#contacto" class="inline-block bg-slate-700 py-4 px-8 rounded-xl font-bold">
 					Contáctame ahora
 				</a>
 
@@ -45,12 +50,16 @@
 	</header>
 
 
-
 	<main>
-		<section class="wrapper py-20 text-center" id="habilidades">
-			<h2 class="text-3xl font-bold">Nuestras Habilidades</h2>
 
-			<div class="mt-12 grid gap-8 max-w-md mx-auto">
+		<!-- habilidades -->
+		<section class="wrapper py-20 text-center" id="habilidades">
+
+			<h2 class="text-3xl font-bold md:text-4xl">Nuestras Habilidades</h2>
+
+			<div class="mt-12 grid gap-8 max-w-md mx-auto md:grid-flow-col md:max-w-none auto-cols-fr">
+
+
 				<article class="space-y-6">
 					<svg 
 						xmlns="http://www.w3.org/2000/svg" 
@@ -91,18 +100,19 @@
 		</section>
 
 
-
+		<!-- proyectos -->
 		<section class="bg-slate-50 py-20" id="proyectos">
 			<div class="wrapper text-center">
-				<h2 class="text-3xl font-bold mb-6">Nuestro Trabajo</h2>
-				<p class="font-light text-xl text-slate-500">
+				<h2 class="text-3xl font-bold mb-6 md:text-4xl">Nuestro Trabajo</h2>
+
+				<p class="font-light text-xl text-slate-500 md:w-2/3 mx-auto">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 					consequat. 
 				</p>
 
-				<div class="mt-12 grid gap-12">
+				<div class="mt-12 grid gap-12 md:grid-flow-col auto-cols-fr">
 
 					<article class="w-4/5 mx-auto space-y-4">
 
