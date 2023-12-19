@@ -4,6 +4,8 @@
   <img src="https://skillicons.dev/icons?i=tailwind" alt="Dev icons" />
 </p>
 
+<p>npm run taildDev</p>
+
 <p align="center">
   <img src="1.png" alt="Webpage" />
   <img src="2.png" alt="Webpage" />
