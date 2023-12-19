@@ -6,6 +6,15 @@
 
 <p align="center">npm run taildDev</p>
 
+<h2 align="center">Desktop Version</h2>  
+<p align="center">  
+  <img src="11.png" alt="Webpage" />
+  <img src="12.png" alt="Webpage" />
+  <img src="13.png" alt="Webpage" />
+  <img src="14.png" alt="Webpage" />
+  <img src="15.png" alt="Webpage" />
+</p>
+
 <h2 align="center">Mobile Version</h2>  
 <p align="center">
   <img src="1.png" alt="Webpage" />
@@ -18,11 +27,4 @@
 </p>
 
 
-<h2 align="center">Desktop Version</h2>  
-<p align="center">  
-  <img src="11.png" alt="Webpage" />
-  <img src="12.png" alt="Webpage" />
-  <img src="13.png" alt="Webpage" />
-  <img src="14.png" alt="Webpage" />
-  <img src="15.png" alt="Webpage" />
-</p>
+
