@@ -6,18 +6,7 @@
 	<title>Hola Tailwind!!!</title>
 	<link rel="stylesheet" type="text/css" href="src/css/estilos.css">
 </head>
-<body class="h-screen">
-
-	<nav 
-		class="bg-violet-600 h-20 px-8 flex text-white justify-between items-center rounded">
-		<h1>Logo.</h1>
-
-		<div class="flex gap-8">
-			<a class="text-xl" href="#" title="Home">Home</a>
-			<a class="text-xl" href="#" title="About">About</a>
-			<a class="text-xl" href="#" title="Contact">Contact</a>
-		</div>
-	</nav>	
+<body>	
 
 	<article 
 		class="w-5/6 max-w-screen-md my-24 mx-auto px-6 py-4 rounded-md text-center border-8">
@@ -42,6 +31,18 @@
 			Contact Me
 		</a>
 	</article>
+
+
+	<nav 
+		class="bg-violet-600 h-20 px-8 flex text-white justify-between items-center sticky top-0">
+		<h1>Logo.</h1>
+
+		<div class="flex gap-8">
+			<a class="text-xl" href="#" title="Home">Home</a>
+			<a class="text-xl" href="#" title="About">About</a>
+			<a class="text-xl" href="#" title="Contact">Contact</a>
+		</div>
+	</nav>	
 
 
 
