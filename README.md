@@ -1,4 +1,4 @@
-<h1 align="center">My Tailwind Website</h1>
+<h1 align="center">Tailwind Landing Page</h1>
 
 <p align="center">
   <img src="https://skillicons.dev/icons?i=tailwind" alt="Dev icons" />
