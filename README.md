@@ -6,7 +6,7 @@
 
 <p align="center">npm run taildDev</p>
 
-<h4 align="center">Mobile Version</h4>  
+<h2 align="center">Mobile Version</h2>  
 <p align="center">
   <img src="1.png" alt="Webpage" />
   <img src="2.png" alt="Webpage" />
@@ -18,7 +18,7 @@
 </p>
 
 
-<h4 align="center">Desktop Version</h4>  
+<h2 align="center">Desktop Version</h2>  
 <p align="center">  
   <img src="11.png" alt="Webpage" />
   <img src="12.png" alt="Webpage" />
