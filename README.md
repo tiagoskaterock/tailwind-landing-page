@@ -6,6 +6,8 @@
 
 <p align="center">npm run taildDev</p>
 
+<img src="1.gif" alt="Webpage" />
+
 <h2 align="center">Desktop Version</h2>  
 <p align="center">  
   <img src="11.png" alt="Webpage" />
