@@ -169,7 +169,9 @@
 
 
 
-		<section class="wrapper py-20 grid gap-12" id="contacto">
+		<section 
+			class="wrapper py-20 grid gap-12 md:grid-flow-col auto-cols-fr items-center" 
+			id="contacto">
 			<div>
 				<h2 class="text-3xl font-bold">Dame tu correo, y te contactaré a la brevedad</h2>
 
@@ -198,14 +200,16 @@
 
 			<div class="wrapper py-20">
 
-				<section class="flex flex-col text-center gap-6 border-b-2 border-slate-400 pb-8">
+				<section class="flex flex-col text-center gap-6 border-b-2 border-slate-400 pb-8 md:flex-row md:justify-between md:items-center md:pb-10">
 					<h2 class="text-3xl text-slate-900 font-extrabold">Landing</h2>
 
 					<p class="text-slate-600">micorreo@micorreo.com</p>
 				</section>
 
 
-				<section class="flex flex-col text-center gap-6 pt-8">
+
+
+				<section class="flex flex-col text-center gap-6 pt-8 md:flex-row md:justify-between md:items-center md:pt-10">
 
 					<div class="flex justify-center gap-4 text-slate-900">
 						<a href="#inicio">Inicio</a>

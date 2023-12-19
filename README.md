@@ -4,10 +4,10 @@
   <img src="https://skillicons.dev/icons?i=tailwind" alt="Dev icons" />
 </p>
 
-<p>npm run taildDev</p>
+<p align="center">npm run taildDev</p>
 
+<h4 align="center">Mobile Version</h4>  
 <p align="center">
-  <h4>Mobile Version</h4>  
   <img src="1.png" alt="Webpage" />
   <img src="2.png" alt="Webpage" />
   <img src="3.png" alt="Webpage" />
@@ -18,8 +18,8 @@
 </p>
 
 
-<p align="center">
-  <h4>Desktop Version</h4>  
+<h4 align="center">Desktop Version</h4>  
+<p align="center">  
   <img src="11.png" alt="Webpage" />
   <img src="12.png" alt="Webpage" />
   <img src="13.png" alt="Webpage" />
