@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html class="scroll-smooth">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,16 +8,17 @@
 </head>
 <body>	
 
-	<header class="bg-blue-500 min-h-[600px]">
+	<header class="bg-blue-500 min-h-[600px]" id="inicio">
 		<nav class="py-6 text-white grid justify-items-center items-center gp-6 wrapper">
 			<a href="#">
 				<h2 class="text-3xl font-extrabold mb-4">Landing.</h2>
 			</a>
 
 			<div class="space-x-4">
-				<a href="#" class="mr-4">Home</a>
-				<a href="#" class="mr-4">Habilidades</a>
-				<a href="#">Proyectos</a>
+				<a href="#inicio" class="mr-4">Inicio</a>
+				<a href="#habilidades" class="mr-4">Habilidades</a>
+				<a href="#proyectos">Proyectos</a>
+				<a href="#contacto">Contacto</a>
 			</div>
 		</nav>
 
@@ -46,7 +47,7 @@
 
 
 	<main>
-		<section class="wrapper py-20 text-center">
+		<section class="wrapper py-20 text-center" id="habilidades">
 			<h2 class="text-3xl font-bold">Nuestras Habilidades</h2>
 
 			<div class="mt-12 grid gap-8 max-w-md mx-auto">
@@ -91,7 +92,7 @@
 
 
 
-		<section class="bg-slate-50 py-20">
+		<section class="bg-slate-50 py-20" id="proyectos">
 			<div class="wrapper text-center">
 				<h2 class="text-3xl font-bold mb-6">Nuestro Trabajo</h2>
 				<p class="font-light text-xl text-slate-500">
@@ -158,7 +159,7 @@
 
 
 
-		<section class="wrapper py-20 grid gap-12">
+		<section class="wrapper py-20 grid gap-12" id="contacto">
 			<div>
 				<h2 class="text-3xl font-bold">Dame tu correo, y te contactaré a la brevedad</h2>
 
@@ -183,10 +184,50 @@
 
 
 
-		<footer>
-			
-		</footer>
+		<footer class="bg-blue-100">
 
+			<div class="wrapper py-20">
+
+				<section class="flex flex-col text-center gap-6 border-b-2 border-slate-400 pb-8">
+					<h2 class="text-3xl text-slate-900 font-extrabold">Landing</h2>
+
+					<p class="text-slate-600">micorreo@micorreo.com</p>
+				</section>
+
+
+				<section class="flex flex-col text-center gap-6 pt-8">
+
+					<div class="flex justify-center gap-4 text-slate-900">
+						<a href="#inicio">Inicio</a>
+						<a href="#habilidades">Habilidades</a>
+						<a href="#proyectos">Proyectos</a>
+						<a href="#contacto">Contacto</a>
+					</div>
+
+
+
+					<div class="grid grid-flow-col auto-cols-max gap-8 justify-center">
+						<a href="#">
+							<img 
+							class="w-7 "
+							src="img/facebook.svg">
+						</a>
+
+						<a href="#">
+							<img 
+							class="w-7 "
+							src="img/instagram.svg">
+						</a>
+
+						<a href="#">
+							<img 
+							class="w-7 "
+							src="img/twitter.svg">
+						</a>
+					</div>
+				</section>
+			</div>
+		</footer>
 
 	</main>
 
